@@ -1,7 +1,6 @@
 const express = require('express');
 const path = require('path');
 const mongoose = require('./db');
-
 const app = express();
 
 app.get('/', (req, res) => {
